@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
-ruby '2.3.1'
-gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
+ruby '2.6.2'
+gem 'rails', '~> 5'
 gem 'sqlite3'
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
@@ -20,7 +20,7 @@ group :development do
 end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap-sass'
-gem 'devise'
+gem 'devise', '~>4.4.0'
 gem 'high_voltage'
 group :development do
   gem 'better_errors'
